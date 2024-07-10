@@ -17,9 +17,9 @@ from .hand import Hand
 from .face import Face
 from annotator.util import annotator_ckpts_path
 
-body_model_path = "https://huggingface.co/lllyasviel/Annotators/resolve/main/body_pose_model.pth"
-hand_model_path = "https://huggingface.co/lllyasviel/Annotators/resolve/main/hand_pose_model.pth"
-face_model_path = "https://huggingface.co/lllyasviel/Annotators/resolve/main/facenet.pth"
+body_model_path = "https://hf-mirror.com/lllyasviel/Annotators/resolve/main/body_pose_model.pth"
+hand_model_path = "https://hf-mirror.com/lllyasviel/Annotators/resolve/main/hand_pose_model.pth"
+face_model_path = "https://hf-mirror.com/lllyasviel/Annotators/resolve/main/facenet.pth"
 
 
 def draw_pose(pose, H, W, draw_body=True, draw_hand=True, draw_face=True):
